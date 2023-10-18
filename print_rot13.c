@@ -2,7 +2,7 @@
 
 /**
  * print_rot13 - Function converts to rot13
- * @val: Arguments
+ * @val: Is Arguments
  * Return: Counter
  */
 
