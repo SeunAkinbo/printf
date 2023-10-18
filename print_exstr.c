@@ -5,7 +5,7 @@
 /**
  * print_exc_string - Prints exclusive string
  * @val: va_list argument
- * Return: Integer
+ * Return: Integer number of characters
  */
 
 int print_exc_string(va_list val)
