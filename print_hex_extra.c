@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* print_int - prints an integer
+* print_int - this prints an integer
 * @val:  va_list
 * Return: number of characters printed
 */
