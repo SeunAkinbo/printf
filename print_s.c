@@ -1,10 +1,11 @@
 #include "main.h"
 #include <string.h>
 #include <stdarg.h>
+
 /**
  * printf_string - Prints strings
  * @val: A variadic function
- * Return: Integer
+ * Return: Integer of characters
  */
 
 
