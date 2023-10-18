@@ -5,7 +5,7 @@
 /**
 * print_hex - prints Hex
 * @val:  va_list
-* Return: Integer
+* Return: Integer number of characters counted
 */
 
 int print_hex(va_list val)
