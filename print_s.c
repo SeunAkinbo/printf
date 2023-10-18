@@ -4,7 +4,7 @@
 
 /**
  * printf_string - Prints strings
- * @val: A variadic function
+ * @val: This A variadic function
  * Return: Integer of characters
  */
 
