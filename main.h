@@ -20,4 +20,4 @@ int print_exc_string(va_list val);
 int print_HEX_extra(unsigned int num);
 print_hex_extra(long int a);
 
-#endif /* MAIN_H */
+#endif /*  MAIN_H  */
