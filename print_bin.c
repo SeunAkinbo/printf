@@ -3,8 +3,7 @@
 
 /**
  * print_bin - prints the binary representation of a number
- * @fmt: the format string
- * @...: variable arguments
+ * @val: va_list argument
  * Return: the number of characters printed
  */
 
