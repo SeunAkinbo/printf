@@ -2,7 +2,7 @@
 
 /**
  * print_pointer - Prints a pointer
- * @val: va_list argument
+ * @val: is a va_list argument
  * Return: Integer
  */
 
