@@ -3,7 +3,7 @@
 
 /**
  * print_uint - prints an integer
- * @val:  va_list
+ * @val:  This is a va_list
  * Return: number of characters printed
  */
 
