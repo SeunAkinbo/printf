@@ -4,6 +4,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+typedef struct format
+{
+	char *id;
+	int (*f)();
+}match;
+
 int _printf(const char *format, ...);
 int _putchar(char c);
 int printf_c(va_list val);

@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
-* print_int - prints an integer
-* @val:  va_list
+* print_HEX_extra - prints Hexadecimal
+* @num: Argument
 * Return: number of characters printed
 */
 
@@ -30,9 +30,9 @@ int print_HEX_extra(unsigned int num)
 	}
 	for (i = counter - 1; i >= 0; i--)
 	{
-	  if (array[i] > 9)
-		  array[i] = array[i] + 7;
-	  _putchar(array[i] + '0');
+		if (array[i] > 9)
+			array[i] = array[i] + 7;
+		_putchar(array[i] + '0');
 	}
 	free(array);
 	return (counter);

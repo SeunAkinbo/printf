@@ -11,7 +11,7 @@
 
 int printf_string(va_list val)
 {
-	char * str;
+	char *str;
 	int i;
 	int length;
 

@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h> 
+#include <stdarg.h>
 
 /**
  * printf_c - Prints char
@@ -10,8 +10,9 @@
 
 int printf_c(va_list val)
 {
-        char str = va_arg(val, int);
-        _putchar(str);
-        return (1);
+	char str = va_arg(val, int);
+
+	_putchar(str);
+	return (1);
 }
 

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* print_HEX - prints an uppercase hexagonal values
+* print_Hex - prints an uppercase hexagonal values
 * @val:  va_list
 * Return: number of characters printed
 */
@@ -29,11 +29,11 @@ int print_Hex(va_list val)
 		array[i] = temp % 16;
 		temp = temp / 16;
 	}
-	for (i = counter - 1; i >= 0; i--)
+	for (i = (counter - 1); i >= 0; i--)
 	{
-	  if (array[i] > 9)
-		  array[i] = array[i] + 7;
-	  _putchar(array[i] + '0');
+		if (array[i] > 9)
+			array[i] = array[i] + 7;
+		_putchar(array[i] + '0');
 	}
 	free(array);
 	return (counter);
