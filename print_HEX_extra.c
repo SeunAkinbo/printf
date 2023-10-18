@@ -5,7 +5,7 @@
 /**
 * print_int - prints an integer
 * @val:  va_list
-* Return: number of characters printed
+* Return: the number of characters printed
 */
 
 int print_HEX_extra(unsigned int num)
