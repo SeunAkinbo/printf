@@ -4,7 +4,7 @@
 /**
  * printf_c - Prints char
  * @val: A variadic function
- * Return: Integer
+ * Return: 1
  */
 
 
