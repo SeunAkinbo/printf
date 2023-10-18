@@ -4,7 +4,7 @@
 
 /**
 * print_int - this prints an integer
-* @val:  va_list
+* @val:  is a va_list
 * Return: number of characters printed
 */
 
