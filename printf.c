@@ -3,7 +3,7 @@
 /**
  * _printf - mimics printf
  * @format: looks for identifier
- * Return: Integer
+ * Return: Integer counter
  */
 
 int _printf(const char *format, ...)
