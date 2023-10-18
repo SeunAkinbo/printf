@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
-* print_int - this prints an integer
-* @val:  va_list
-* Return: the number of characters printed
+* print_HEX_extra - prints Hexadecimal
+* @num: Argument
+* Return: number of characters printed
 */
 
 int print_HEX_extra(unsigned int num)
@@ -21,8 +21,7 @@ int print_HEX_extra(unsigned int num)
 	}
 	counter++;
 	array = malloc(sizeof(int) * counter);
-	if (array == NULL)
-		return (0);
+
 	for (i = 0; i < counter; i++)
 	{
 		array[i] = temp % 16;
