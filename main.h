@@ -18,6 +18,7 @@ int print_hex(va_list val);
 int print_Hex(va_list val);
 int print_exc_string(va_list val);
 int print_HEX_extra(unsigned int num);
-print_hex_extra(long int a);
+int print_pointer(va_list val)
+print_hex_extra(unsigned long int a);
 
 #endif /*  MAIN_H  */
