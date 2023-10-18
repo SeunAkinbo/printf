@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * printf_string - Prints strings
+ * printf_string - This Prints strings
  * @val: This A variadic function
  * Return: Integer of characters
  */
