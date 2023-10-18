@@ -3,7 +3,7 @@
 
 
 /**
- * print_exc_string - Prints exclusive string
+ * print_exc_string - this Prints exclusive string
  * @val: va_list argument
  * Return: Integer number of characters
  */
