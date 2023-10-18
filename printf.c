@@ -1,7 +1,7 @@
 #include "main.h"
   
 /**
- * _printf - mimics printf
+ * _printf - this mimics printf
  * @format: looks for identifier
  * Return: Integer counter
  */
