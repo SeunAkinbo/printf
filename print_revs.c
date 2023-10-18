@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_revs - Function prints string in reverse
+ * print_revs - this Function prints string in reverse
  * @val: va_list arguments
  * Return: the string
  */

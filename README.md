@@ -1,3 +1,3 @@
-**Exploring the Printf function declaration**
+**Exploring the Printf function declarations**
 
 - weight:5

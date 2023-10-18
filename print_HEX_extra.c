@@ -3,9 +3,15 @@
 #include <stdlib.h>
 
 /**
+<<<<<<< HEAD
 * print_HEX_extra - prints Hexadecimal
 * @num: Argument
 * Return: number of characters printed
+=======
+* print_int - this prints an integer
+* @val:  va_list
+* Return: the number of characters printed
+>>>>>>> 5af10aa326fce5650a68fafd0cb7156549312bd7
 */
 
 int print_HEX_extra(unsigned int num)

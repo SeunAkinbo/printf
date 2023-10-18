@@ -3,8 +3,13 @@
 #include <stdlib.h>
 
 /**
+<<<<<<< HEAD
 * print_hex_extra - prints an hexadecimal
 * @num: unsigned long int argument
+=======
+* print_int - this prints an integer
+* @val:  va_list
+>>>>>>> 5af10aa326fce5650a68fafd0cb7156549312bd7
 * Return: number of characters printed
 */
 

@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * print_bin - prints the binary representation of a number
+ * print_bin - this prints the binary representation of a number
  * @val: va_list argument
  * Return: the number of characters printed
  */

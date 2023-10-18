@@ -3,9 +3,13 @@
 #include <stdlib.h>
 
 /**
+<<<<<<< HEAD
 * print_Hex - prints an uppercase hexagonal values
+=======
+* print_HEX - this prints an uppercase hexagonal values
+>>>>>>> 5af10aa326fce5650a68fafd0cb7156549312bd7
 * @val:  va_list
-* Return: number of characters printed
+* Return: this is number of characters printed
 */
 
 int print_Hex(va_list val)

@@ -4,7 +4,7 @@
 /**
  * print_dec - prints a float
  * @val:  va_list
- * Return: number of characters printed
+ * Return: the number of characters printed
  */
 
 int print_dec(va_list val)

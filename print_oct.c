@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* print_oct - prints octagonal values
+* print_oct - this prints octagonal values
 * @val:  va_list
 * Return: number of characters printed
 */
