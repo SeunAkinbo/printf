@@ -3,34 +3,37 @@
 #include <stdlib.h>
 
 /**
-* print_oct - this prints octagonal values
-* @val:  is a va_list
-* Return: number of characters printed
+* print_Hex - prints an uppercase hexagonal values
+* @val:  va_list
+* Return: this is number of characters printed
 */
 
-int print_oct(va_list val)
+int print_Hex(va_list val)
 {
 	int i, counter = 0;
 	int *array;
 	unsigned int num = va_arg(val, unsigned int);
 	unsigned int temp = num;
 
-	while (num / 8 != 0)
+	while (num / 16 != 0)
 	{
-		num /= 8;
+		num /= 16;
 		counter++;
 	}
 	counter++;
 	array = malloc(sizeof(int) * counter);
-	if (array == NULL)
-		return (0);
+
 	for (i = 0; i < counter; i++)
 	{
-		array[i] = temp % 8;
-		temp = temp / 8;
+		array[i] = temp % 16;
+		temp = temp / 16;
 	}
-	for (i = counter - 1; i >= 0; i--)
+	for (i = (counter - 1); i >= 0; i--)
+	{
+		if (array[i] > 9)
+			array[i] = array[i] + 7;
 		_putchar(array[i] + '0');
+	}
 	free(array);
 	return (counter);
 }

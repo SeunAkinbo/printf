@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
-* print_hex_extra - prints an hexadecimal
-* @num: unsigned long int argument
+* print_hex_extra - Prints Hexadecimal
+* @num: Argument
 * Return: number of characters printed
 */
 

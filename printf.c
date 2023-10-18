@@ -1,18 +1,13 @@
 #include "main.h"
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 0c9929b1d9a2a9b963ce9ced07ceda583e7dba3e
 /**
- * _printf - mimics printf
+ * _printf - this mimics printf
  * @format: looks for identifier
  * Return: Integer counter
  */
 
 int _printf(const char *format, ...)
 {
-<<<<<<< HEAD
 	match m[] = {
 		{"%c", printf_c}, {"%s", print_s}, {"%%", print_mod},
 		{"%d", print_dec}, {"i", print_int}, {"%r", print_revs},
@@ -47,7 +42,7 @@ Here:
 	}
 	va_end(args);
 	return (len);
-=======
+
         match m[] = {
                 {"%c", printf_c}, {"%s", print_s}, {"%%", print_mod},
                 {"%d", print_dec}, {"i", print_int}, {"%r", print_revs},
@@ -82,5 +77,4 @@ Here:
         }
         va_end(args);
         return (len);
->>>>>>> 0c9929b1d9a2a9b963ce9ced07ceda583e7dba3e
 }
