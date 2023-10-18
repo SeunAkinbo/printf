@@ -3,17 +3,8 @@
 #include <stdlib.h>
 
 /**
-<<<<<<< HEAD
 * print_hex_extra - prints an hexadecimal
 * @num: unsigned long int argument
-=======
-* print_int - this prints an integer
-<<<<<<< HEAD
-* @val:  va_list
->>>>>>> 5af10aa326fce5650a68fafd0cb7156549312bd7
-=======
-* @val:  is a va_list
->>>>>>> 0c9929b1d9a2a9b963ce9ced07ceda583e7dba3e
 * Return: number of characters printed
 */
 
@@ -30,8 +21,7 @@ int print_hex_extra(unsigned long int num)
 	}
 	counter++;
 	array = malloc(sizeof(long int) * counter);
-	if (array == NULL)
-		return (0);
+
 	for (i = 0; i < counter; i++)
 	{
 		array[i] = temp % 16;
