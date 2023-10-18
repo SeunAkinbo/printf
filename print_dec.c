@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * print_dec - printsa float
+ * print_dec - prints a float
  * @val:  va_list
  * Return: number of characters printed
  */

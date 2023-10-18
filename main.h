@@ -16,5 +16,8 @@ int print_uint(va_list val);
 int print_oct(va_list val);
 int print_hex(va_list val);
 int print_Hex(va_list val);
+int print_exc_string(va_list val);
+int print_HEX_extra(unsigned int num);
+print_hex_extra(long int a);
 
 #endif /* MAIN_H */
