@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* print_HEX - prints an uppercase HEXagonal values
+* print_HEX - prints an uppercase hexagonal values
 * @val:  va_list
 * Return: number of characters printed
 */
